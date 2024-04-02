@@ -1,0 +1,28 @@
+body {
+    background-color: #f5e1e1; /* rosa claro */
+    color: #8a4d76; /* tono de rosa oscuro para el texto */
+}
+
+
+
+a {
+    color: #ff6b98; /* rosa brillante para los enlaces */
+    text-decoration: none; /* quitar subrayado de los enlaces */
+}
+
+a:hover {
+    color: #d23c5e; /* rosa más oscuro al pasar el cursor sobre los enlaces */
+}
+
+#button {
+    background-color: #ff6b98; /* rosa brillante para los botones */
+    color: white; /* texto blanco en los botones */
+    border: none; /* quitar bordes de los botones */
+    padding: 10px 20px; /* espacio interior en los botones */
+    border-radius: 5px; /* bordes redondeados en los botones */
+    cursor: pointer; /* cursor de tipo mano al pasar sobre los botones */
+}
+
+#button:hover {
+    background-color: #d23c5e; /* rosa más oscuro al pasar el cursor sobre los botones */
+}
