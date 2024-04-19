@@ -1,0 +1,139 @@
+/* Selector universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Agregado para incluir el padding y border en el ancho total */
+    text-decoration: none;
+}
+
+/* Selector de etiqueta */
+body {
+    background-color: rgb(240, 182, 182);
+    color: #8a4d76;
+    font-family: 'Times New Roman', Times, serif; /* Agregado un tipo de fuente */
+}
+
+ul {
+    text-align: center;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    padding: 10px 30px; /* Corregido el formato del padding */
+    margin: 3em;
+}
+
+li a:hover {
+    color: rgb(230, 210, 125);
+    font-size: 20px;
+    list-style-type: none; /* No es necesario para enlaces */
+}
+
+/* Selector id */
+#contenedor {
+    width: 800px;
+    height: 200px;
+    background-color: hotpink;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px; /* Agregado borde redondeado */
+}
+
+#encabezado {
+    width: 100%;
+    background-color: indianred;
+    margin: 100px auto; /* Centrado horizontalmente */
+    text-align: center;
+    border-radius: 5px;
+}
+
+#menu {
+    height: 40px;
+    background-color: rgb(59, 31, 82);
+    margin: 1em;
+    border-radius: 5px;
+}
+
+#pie {
+    height: 60px;
+    background-color: rgb(223, 182, 182);
+    margin: 1.5em;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#pie h5 {
+    padding: 15px;
+    font-size: 30px;
+    color: rgb(4, 4, 4);
+}
+
+/* Selector de clase */
+.img {
+    width: 30%;
+    display: block; /* Agregado para centrar la imagen horizontalmente */
+    margin: 0 auto; /* Centrado horizontalmente */
+}
+
+.texto {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 30px;
+    color: black;
+}
+
+.img:hover {
+    width: 80%;
+}
+
+/* Tarjetas */
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px auto; /* Ajuste del margen */
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    transition: max-width 0.3s ease; /* Transición suave en hover */
+}
+
+.card:hover {
+    max-width: 310px;
+}
+
+.card img {
+    background-color: white;
+    max-width: 100%;
+}
+
+.title {
+    color: rgb(224, 201, 201);
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px; /* Agregado borde redondeado */
+}
+
+button:hover {
+    opacity: 0.7;
+}
